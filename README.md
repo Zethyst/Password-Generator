@@ -22,7 +22,7 @@ A robust and user-friendly password generator website designed to enhance your o
 
 <dt>Customizable Options:</dt><dd> Tailor the generated passwords to meet your specific requirements by adjusting the length, character types (uppercase, lowercase, numbers, symbols)</dd>
 
-<dt>Secure and Private:</dt><dd> Rest easy knowing that SecurePassGen is designed with security in mind. The generated passwords are never stored or logged, ensuring your privacy and safeguarding against potential vulnerabilities.</dd>
+<dt>Secure and Private:</dt><dd> Rest easy knowing that KeyMaster is designed with security in mind. The generated passwords are never stored or logged, ensuring your privacy and safeguarding against potential vulnerabilities.</dd>
 
 <dt>Copy and Use:</dt><dd> Conveniently copy the generated passwords to your clipboard with a single click, making it easy to use them across various platforms and applications.</dd>
 
