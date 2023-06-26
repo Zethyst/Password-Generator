@@ -1,4 +1,4 @@
-<h1 align="center">IdeaStash: A Note Taking Wesbite</h1>
+<h1 align="center">KeyMaster: Password Generator</h1>
 A robust and user-friendly password generator website designed to enhance your online security. With the increasing need for strong and unique passwords, KeyMaster comes to your aid by generating highly secure and randomized passwords that are difficult to crack
 
 [Visit Now](https://password-generator-zethyst.vercel.app/) 🚀
