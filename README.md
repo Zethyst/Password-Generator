@@ -1,5 +1,5 @@
 # KeyMaster
-A robust and user-friendly password generator website designed to enhance your online security. With the increasing need for strong and unique passwords, SecurePassGen comes to your aid by generating highly secure and randomized passwords that are difficult to crack
+A robust and user-friendly password generator website designed to enhance your online security. With the increasing need for strong and unique passwords, KeyMaster comes to your aid by generating highly secure and randomized passwords that are difficult to crack
 
 [Visit Now](https://password-generator-zethyst.vercel.app/) 🚀
 
@@ -16,7 +16,7 @@ A robust and user-friendly password generator website designed to enhance your o
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 
-<h3>📌 Key Feature:</h3>
+## 📌 Key Feature:
 <dl>
 <dt>Strong Password Generation:</dt><dd> KeyMaster utilizes advanced algorithms to generate complex and unpredictable passwords, ensuring a high level of security for your online accounts.</dd>
 
