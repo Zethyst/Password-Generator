@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KeyMaster</title>
+    <meta name="theme-color" content="#141e30">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="/favicon.ico">
+    <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
+</head>
+<!-- Made by Akshat Jaiswal
+"https://www.linkedin.com/in/akshat-jaiswal-4664a2197"
+https://www.instagram.com/scyp77/
+ -->
+<body>
+    <div class="Container">
+        <h1>Password Generator</h1>
+        <div class="header">
+            <input type="text" id="pwd" disabled>
+            <button class="copy" id="copy">
+                <i class="material-icons">content_copy</i>
+            </button>
+            <div class="pass-indicator"></div>
+        </div>
+        <div class="pass-length">
+            <div class="details">
+                <label class="title">Length: </label>
+                <span></span>
+            </div>
+            <div class="boxes">
+                <span class="pass-length-text">1</span>
+                <input type="range" min="1" max="20" value="15" step="1" name="range">
+                <span class="pass-length-text">20</span>
+            </div>
+        </div>
+        <div class="pass-settings">
+            <label class="title">Settings</label>
+            <ul class="options">
+            <li class="option boxes">
+                <p>INCLUDE LOWERCASE (a-z)</p>
+                <label for="lowercase" class="switch">
+                    <input type="checkbox" id="lowercase" checked>
+                    <span class="slider round"></span>
+                </label>
+            </li>
+            <li class="option boxes">
+                <p>INCLUDE UPPERCASE (A-Z)</p>
+                <label for="uppercase" class="switch">
+                    <input type="checkbox" id="uppercase" checked>
+                    <span class="slider round"></span>
+                </label>
+            </li>
+            <li class="option boxes">
+                <p>INCLUDE NUMBERS (0-9)</p>
+                <label for="numbers" class="switch">
+                    <input type="checkbox" id="numbers" checked>
+                    <span class="slider round"></span>
+                </label>
+            </li>
+            <li class="option boxes">
+                <p>INCLUDE SYMBOLS (!$^#)</p>
+                <label for="symbols" class="switch">
+                    <input type="checkbox" id="symbols" checked>
+                    <span class="slider round"></span>
+                </label>
+            </li>
+        </ul>
+        </div>
+        <div class="button" id="submit">
+            <div class="button-layer"></div>
+            <button>Generate Password</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
